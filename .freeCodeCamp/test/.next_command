@@ -139,3 +139,8 @@ git remote add origin https://github.com/TrinidadLeandroAngelo-source/worldcup-d
 git push -u origin main
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 git add .
+git commit -m "add worldcup.sql"
+git push origin main
+pg_dump -cC --inserts -U freecodecamp worldcup > insert_data.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > queries.sh
+git add .
