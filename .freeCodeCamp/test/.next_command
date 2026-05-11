@@ -144,3 +144,8 @@ git push origin main
 pg_dump -cC --inserts -U freecodecamp worldcup > insert_data.sh
 pg_dump -cC --inserts -U freecodecamp worldcup > queries.sh
 git add .
+git commit -m "adds inerst_data.sh, queries.sh"
+git push origin main
+touch insert_data_script.sh
+touch queries_script.sh
+git add .
